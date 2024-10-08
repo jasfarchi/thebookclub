@@ -1,0 +1,285 @@
+/*หนังสือแนะนำ*/
+main{
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.logo{
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 1em;
+  z-index: 1000;
+
+}
+
+.container1{
+   width: 100%;
+   height: 100vh;
+
+}
+
+.content{
+  width: 100%;
+  height: 100vh;
+
+}
+
+.navbar {
+  height: 81px; /* Adjust the height of the navbar */
+  width: 100%;  /* Make sure it spans the full width */
+}
+
+/*ฟ้อนต์*/
+.ibm-plex-sans-thai-bold {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 32px;
+
+}
+
+.ibm-plex-sans-thai-regular {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+/*ฟ้อนต์ตรงรายละเอียดหนังสือ*/
+.ibm-plex-sans-thai-regular2 {
+  font-family: "IBM Plex Sans Thai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.prompt-medium {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+
+}
+
+.text-book{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+.ช่องsearch{
+  border-radius: 25px;
+  width: 350px;
+
+}
+
+.search-button{
+   width: max-content;
+   display: flex;
+   align-items: center;
+   background-color: #ebbedd;
+   padding-left: 0;
+   margin: 0;
+   color: #412c1b;
+
+}
+
+
+.text-color{
+  color: #412c1b;
+
+}
+
+/*อิรุมะ+สแลมดั้ง ชื่อเรื่อง*/
+.title-book{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+@media (min-width: 768px) {
+  .title-book {
+      text-align: right; /* Align right on MD screens */
+  }
+}
+
+
+/*อิรุมะ+สแลมดั้ง คนเขียน*/
+.ชื่อคนเขียน{
+  text-align: center;
+  font-size: 23px;
+
+}
+
+@media (min-width: 768px) {
+  .ชื่อคนเขียน {
+      text-align: right; /* Align right on MD screens */
+  }
+}
+
+
+/*กินทามะ ชื่อเรื่อง*/
+.หัวข้อกินทามะ{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+@media (min-width: 768px) {
+  .หัวข้อกินทามะ {
+      text-align: left; /* Align right on MD screens */
+  }
+}
+
+
+/*กินทามะ คนเขียน*/
+.คนเขียนกินทามะ{
+  text-align: center;
+  font-size: 23px;
+
+}
+
+@media (min-width: 768px) {
+  .คนเขียนกินทามะ {
+      text-align: left; /* Align right on MD screens */
+  }
+}
+
+
+
+.ย่อหน้า{
+  text-indent: 30px;
+  text-align: justify;
+  z-index: 2; /* Puts the text in front of the image */
+
+}
+
+.จัดย่อหน้านสทั้งหมด{
+    padding-right: 0;
+
+
+}
+
+.devider{
+  padding: 0;
+  fill: url(../images/ice2.jpg);
+}
+
+/*modal*/
+.รายละเอียดหนังสือ{
+   text-align: left;
+
+}
+
+/*icon madal*/
+.ปุ่ม{
+  background-image: url(../images/392b7bf2dd43232cdb21e0212865a459.jpg);
+  background-repeat: repeat-x;
+  background-size:contain;
+
+}
+
+.ปุ่ม2{
+  width: fit-content;
+}
+
+/*จัดปกกินทามะ+สแลมดั้ง*/
+.จัดปก{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+
+}
+
+/*จัดพื้นหลัง pink dot*/
+.pinkdot{
+  margin: auto;
+  padding: auto;
+  background-size: contain;
+
+}
+
+.สีตัวอักษร{
+  text-decoration-color: #412c1b;
+
+}
+
+.ชมพูnavbar{
+  margin: 0;
+  padding: 0;
+  border-image-width: 0;
+
+}
+
+.custom-shape-divider-bottom-1728323469 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.ads{
+  padding: 2%;
+  width: 800px;
+
+}
+
+.ads-bg{
+   background-repeat: repeat-x;
+   background-size: cover;
+   align-items: center;
+   justify-content: center;
+
+}
+
+/*พื้นหลังข้อความ*/
+.shape {
+  position: sticky; /* Positions the shape behind the text */
+  top: 80;
+  left: 50;
+  width: auto;
+  height: auto;
+  background-color: rgba(255, 255, 255,0.6);
+  border-radius: 3%; /* Makes the shape a circle */
+  z-index: 1; /* Puts the shape behind the text */
+  padding: 2%;
+  margin: 0%;
+
+}
+
+.container3 {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  fill: url(../images/shape.png);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  z-index: 1; /* Keeps the image behind the text */
+}
+
+.เลื่อนๆ{
+  color: #412c1b;
+
+}
+
+.bgss{
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
