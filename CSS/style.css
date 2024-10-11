@@ -4,29 +4,33 @@ main{
   margin: 0;
   padding: 0;
   text-align: center;
+  color: #fffbf7;
+
 
 }
 
 .logo{
-  position: fixed;
-  top: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 1em;
-  z-index: 1000;
-
+  align-content: space-around;
+  
 }
 
-.container1{
-   width: 100%;
-   height: 100vh;
 
-}
-
-.content{
+/* Align and space the items in the nav bar */
+.navbar-nav {
   width: 100%;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+/*รูปเปิด*/
+.ads2{
+  padding: auto;
 }
 
 .navbar {
@@ -48,6 +52,12 @@ main{
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+}
+
+.cormorant-garamond-semibold {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /*ฟ้อนต์ตรงรายละเอียดหนังสือ*/
@@ -84,7 +94,6 @@ main{
    width: max-content;
    display: flex;
    align-items: center;
-   background-color: #ebbedd;
    padding-left: 0;
    margin: 0;
    color: #412c1b;
@@ -93,14 +102,20 @@ main{
 
 
 .text-color{
+  color: #fffbf7;
+
+}
+
+.text-color2{
   color: #412c1b;
 
 }
 
+
 /*อิรุมะ+สแลมดั้ง ชื่อเรื่อง*/
 .title-book{
   text-align: center;
-  font-size: 40px;
+  font-size: 70px;
 
 }
 
@@ -114,7 +129,7 @@ main{
 /*อิรุมะ+สแลมดั้ง คนเขียน*/
 .ชื่อคนเขียน{
   text-align: center;
-  font-size: 23px;
+  font-size: 25px;
 
 }
 
@@ -153,7 +168,6 @@ main{
 }
 
 
-
 .ย่อหน้า{
   text-indent: 30px;
   text-align: justify;
@@ -162,15 +176,38 @@ main{
 }
 
 .จัดย่อหน้านสทั้งหมด{
-    padding-right: 0;
+  padding-right: 0;
+
+}
+
+/*padding เนื้อหา*/
+.เนื้อหานส1{
+  padding: 6%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
 
 
 }
 
-.devider{
-  padding: 0;
-  fill: url(../images/ice2.jpg);
+.เนื้อหานส2{
+  padding: 6%;
+  margin-top: -9;
+  margin-bottom: 0%;
+  padding-top: 3%;
+
 }
+
+
+.เนื้อหาประวัติ{
+  padding: 0%;
+  padding-left: 3%;
+  padding-right: 3%;
+  margin: auto;
+  margin-top: 0%;
+
+}
+  
 
 /*modal*/
 .รายละเอียดหนังสือ{
@@ -178,11 +215,10 @@ main{
 
 }
 
-/*icon madal*/
+/*icon เสิร์ช madal*/
 .ปุ่ม{
-  background-image: url(../images/392b7bf2dd43232cdb21e0212865a459.jpg);
-  background-repeat: repeat-x;
-  background-size:contain;
+  background-repeat: no-repeat;
+  background-size:cover;
 
 }
 
@@ -207,10 +243,6 @@ main{
 
 }
 
-.สีตัวอักษร{
-  text-decoration-color: #412c1b;
-
-}
 
 .ชมพูnavbar{
   margin: 0;
@@ -219,15 +251,6 @@ main{
 
 }
 
-.custom-shape-divider-bottom-1728323469 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
 
 .ads{
   padding: 2%;
@@ -243,43 +266,29 @@ main{
 
 }
 
-/*พื้นหลังข้อความ*/
-.shape {
-  position: sticky; /* Positions the shape behind the text */
-  top: 80;
-  left: 50;
-  width: auto;
-  height: auto;
-  background-color: rgba(255, 255, 255,0.6);
-  border-radius: 3%; /* Makes the shape a circle */
-  z-index: 1; /* Puts the shape behind the text */
-  padding: 2%;
-  margin: 0%;
+.ผลงาน{
+  margin: 0;
+  padding: 0;
+  align-items: center;
 
 }
 
-.container3 {
-  position: relative;
-  display: inline-block;
-}
-
-.image {
-  fill: url(../images/shape.png);
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: auto;
-  z-index: 1; /* Keeps the image behind the text */
-}
-
-.เลื่อนๆ{
-  color: #412c1b;
+.ปกผลงาน{
+  margin: 0;
+  padding: 1%;
+  align-items: auto;
 
 }
 
-.bgss{
-  background-repeat: no-repeat;
-  background-size: cover;
+.ชื่อนส{
+  margin-top: 8%;
+  text-align: center;
+  size-adjust: 100cm;
+}
+
+/*รายละเอียดประวัติ*/
+.จัดหน้า{
+  text-align: left;
 
 }
+
